@@ -1,0 +1,15 @@
+export const config = {
+  name: "LUCY",
+  ticker: "$LUCY",
+  description: "Justice for Lucy. A voice for the voiceless.",
+  tagline: "She survived. We stand with her.",
+  image: "/LUCY.jpg",
+  ca: "COMING SOON",
+  buyLink: "#",
+  twitterHandle: "lucypalestine",
+  instagramHandle: "sana_aljamal82",
+  instagramPostId: "DYYTMc0TSWV",
+  supply: "1,000,000,000",
+  tax: "0/0",
+  launched: false,
+}
