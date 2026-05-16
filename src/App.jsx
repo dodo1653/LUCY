@@ -28,6 +28,7 @@ function App() {
       <Tokenomics config={config} />
       <Community config={config} />
       <Footer config={config} />
+      <div className="credit-badge">website by <a href="https://x.com/dazzoxx" target="_blank" rel="noopener noreferrer">@dazzoxx</a></div>
       {toast && <Toast message={toast} />}
     </div>
   )

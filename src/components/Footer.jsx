@@ -6,7 +6,6 @@ export default function Footer({ config }) {
         <div className="ft-meta">
           <div>{config.ticker} is a meme coin · not financial advice.</div>
           <div>© {new Date().getFullYear()}</div>
-          <div>website by <a href="https://x.com/dazzoxx" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)', textDecoration: 'none' }}>@dazzoxx</a></div>
         </div>
       </div>
     </footer>

@@ -644,6 +644,39 @@ footer {
   margin-top: 6px;
 }
 
+/* Credit badge */
+.credit-badge {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  background: rgba(10, 10, 10, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(212, 168, 83, 0.15);
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-size: 11px;
+  color: var(--ink-soft);
+  letter-spacing: 0.08em;
+  transition: all 0.2s;
+}
+
+.credit-badge:hover {
+  border-color: rgba(212, 168, 83, 0.4);
+  color: var(--ink);
+}
+
+.credit-badge a {
+  color: var(--gold);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.credit-badge a:hover {
+  text-decoration: underline;
+}
+
 /* Toast */
 .toast {
   position: fixed;
