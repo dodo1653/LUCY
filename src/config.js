@@ -7,6 +7,7 @@ export const config = {
   ca: "7eALPwTFrgSVRpYNxTzt59a5sz1dP29FgemNmQhXpump",
   buyLink: "https://pump.fun/coin/7eALPwTFrgSVRpYNxTzt59a5sz1dP29FgemNmQhXpump",
   twitterHandle: "lucypalestine",
+  communityLink: "https://x.com/i/communities/2030294008249930003",
   instagramHandle: "sana_aljamal82",
   instagramPostId: "DYYTMc0TSWV",
   supply: "1,000,000,000",

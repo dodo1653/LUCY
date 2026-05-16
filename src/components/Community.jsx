@@ -26,27 +26,38 @@ export default function Community({ config }) {
             𝕏 @{config.twitterHandle}
           </a>
         )}
+        {config.communityLink && (
+          <a 
+            href={config.communityLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="com-link-btn"
+          >
+            𝕏 Community
+          </a>
+        )}
       </div>
 
-      {config.instagramPostId && (
-        <div className="com-embed">
-          <div className="com-embed-card">
-            <div className="com-embed-header">
-              <div className="com-embed-avatar" style={{ background: 'linear-gradient(135deg, #f58529, #dd2a7b, #8134af)' }} />
-              <div>
-                <div className="com-embed-name">sana_aljamal82</div>
-                <div className="com-embed-handle">@sana_aljamal82 · Instagram</div>
-              </div>
-            </div>
-            <p className="com-embed-text">
-              UPDATE ON "LUCY" 🐕❤️ Despite the fear and the obstacle of military checkpoints, the dog "Lucy" was successfully rescued and transferred to the hospital for urgent medical care, following a brutal attack by an armed settler north of Ramallah, Palestine.
-            </p>
-            <p className="com-embed-date">
-              {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-            </p>
-          </div>
+      <div className="com-embed" style={{ marginTop: 48 }}>
+        <div className="com-embed-card" style={{ textAlign: 'center', padding: 32 }}>
+          <div style={{ fontSize: 48, marginBottom: 16 }}>🍉</div>
+          <h3 style={{ fontFamily: 'var(--display)', fontWeight: 700, fontSize: 24, color: 'var(--ink)', marginBottom: 12 }}>
+            Donate to Help Palestine
+          </h3>
+          <p style={{ fontSize: 14, color: 'var(--ink-soft)', lineHeight: 1.6, marginBottom: 24, maxWidth: 400, margin: '0 auto 24px' }}>
+            Support humanitarian aid for the Palestinian people. Every contribution makes a difference.
+          </p>
+          <a 
+            href="https://soulofpalestine.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="com-link-btn"
+            style={{ background: 'var(--gold)', color: 'var(--paper)' }}
+          >
+            Donate Now →
+          </a>
         </div>
-      )}
+      </div>
     </section>
   )
 }
